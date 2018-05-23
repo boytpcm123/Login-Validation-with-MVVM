@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97A9826EB4C81865C8A295D4 /* Pods_Login_Validation_with_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED69507C80EED0FF93B16E7 /* Pods_Login_Validation_with_MVVM.framework */; };
 		B2140AF320B5AD9100CB211F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2140AF220B5AD9100CB211F /* AppDelegate.swift */; };
 		B2140AF520B5AD9100CB211F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2140AF420B5AD9100CB211F /* ViewController.swift */; };
 		B2140AF820B5AD9100CB211F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2140AF620B5AD9100CB211F /* Main.storyboard */; };
 		B2140AFA20B5AD9300CB211F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2140AF920B5AD9300CB211F /* Assets.xcassets */; };
 		B2140AFD20B5AD9300CB211F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2140AFB20B5AD9300CB211F /* LaunchScreen.storyboard */; };
+		B2140B0520B5B61000CB211F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2140B0420B5B61000CB211F /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EAE34D9F45FB5F34EA27B54 /* Pods-Login Validation with MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Validation with MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login Validation with MVVM/Pods-Login Validation with MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED69507C80EED0FF93B16E7 /* Pods_Login_Validation_with_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Validation_with_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2140AEF20B5AD9100CB211F /* Login Validation with MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Validation with MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2140AF220B5AD9100CB211F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2140AF420B5AD9100CB211F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		B2140AF920B5AD9300CB211F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2140AFC20B5AD9300CB211F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2140AFE20B5AD9300CB211F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2140B0420B5B61000CB211F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B40A239F045A4B56D26DB54C /* Pods-Login Validation with MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Validation with MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login Validation with MVVM/Pods-Login Validation with MVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A9826EB4C81865C8A295D4 /* Pods_Login_Validation_with_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10C97F9605CAC5AB143038D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EAE34D9F45FB5F34EA27B54 /* Pods-Login Validation with MVVM.debug.xcconfig */,
+				B40A239F045A4B56D26DB54C /* Pods-Login Validation with MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EC543AC9CB2568BF30675F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED69507C80EED0FF93B16E7 /* Pods_Login_Validation_with_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2140AE620B5AD9100CB211F = {
 			isa = PBXGroup;
 			children = (
 				B2140AF120B5AD9100CB211F /* Login Validation with MVVM */,
 				B2140AF020B5AD9100CB211F /* Products */,
+				10C97F9605CAC5AB143038D1 /* Pods */,
+				8EC543AC9CB2568BF30675F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				B2140AF220B5AD9100CB211F /* AppDelegate.swift */,
 				B2140AF420B5AD9100CB211F /* ViewController.swift */,
+				B2140B0420B5B61000CB211F /* LoginViewModel.swift */,
 				B2140AF620B5AD9100CB211F /* Main.storyboard */,
 				B2140AF920B5AD9300CB211F /* Assets.xcassets */,
 				B2140AFB20B5AD9300CB211F /* LaunchScreen.storyboard */,
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2140B0120B5AD9300CB211F /* Build configuration list for PBXNativeTarget "Login Validation with MVVM" */;
 			buildPhases = (
+				917F2C81AE60CC63A7094680 /* [CP] Check Pods Manifest.lock */,
 				B2140AEB20B5AD9100CB211F /* Sources */,
 				B2140AEC20B5AD9100CB211F /* Frameworks */,
 				B2140AED20B5AD9100CB211F /* Resources */,
+				31EBE5BF75131BB1F6C875CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +159,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31EBE5BF75131BB1F6C875CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Login Validation with MVVM/Pods-Login Validation with MVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login Validation with MVVM/Pods-Login Validation with MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		917F2C81AE60CC63A7094680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login Validation with MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2140AEB20B5AD9100CB211F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +207,7 @@
 			files = (
 				B2140AF520B5AD9100CB211F /* ViewController.swift in Sources */,
 				B2140AF320B5AD9100CB211F /* AppDelegate.swift in Sources */,
+				B2140B0520B5B61000CB211F /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +349,7 @@
 		};
 		B2140B0220B5AD9300CB211F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EAE34D9F45FB5F34EA27B54 /* Pods-Login Validation with MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +367,7 @@
 		};
 		B2140B0320B5AD9300CB211F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40A239F045A4B56D26DB54C /* Pods-Login Validation with MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
